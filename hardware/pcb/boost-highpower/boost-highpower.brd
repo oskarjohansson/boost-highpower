@@ -167,9 +167,10 @@
 <wire x1="2.282" y1="32" x2="0" y2="29.718" width="0" layer="20"/>
 <wire x1="0" y1="29.718" x2="0" y2="2.286" width="0" layer="20"/>
 <wire x1="0" y1="2.286" x2="2.286" y2="0" width="0" layer="20"/>
-<text x="10.16" y="29.972" size="1.2" layer="51" align="top-left">Boost module
+<text x="9.906" y="29.9974" size="1.2" layer="51" align="top-left">Boost module
 4.5 - 35 V input
- 5 - 58 V output</text>
+ 5 - 58 V output
+10 A</text>
 <text x="10.16" y="8.382" size="1.2" layer="51" align="top-right">GND</text>
 <text x="49.276" y="8.128" size="1.2" layer="51" align="top-left">GND</text>
 <text x="1.524" y="19.304" size="1.2" layer="51">VIN</text>
@@ -2750,12 +2751,8 @@ design rules under a new name.</description>
 <signal name="HDRV">
 <contactref element="BOOST" pad="13"/>
 <contactref element="U$10" pad="4"/>
-<wire x1="37.465" y1="14.1825" x2="36.6615" y2="14.1825" width="0.254" layer="1"/>
-<wire x1="35.536" y1="10.39" x2="30.214" y2="10.39" width="0.254" layer="1"/>
-<wire x1="30.214" y1="10.39" x2="29.96" y2="10.136" width="0.254" layer="1"/>
-<wire x1="36.6615" y1="14.1825" x2="36.195" y2="13.716" width="0.254" layer="1"/>
-<wire x1="36.195" y1="13.716" x2="36.195" y2="11.049" width="0.254" layer="1"/>
-<wire x1="36.195" y1="11.049" x2="35.536" y2="10.39" width="0.254" layer="1"/>
+<wire x1="37.465" y1="14.1825" x2="34.0065" y2="14.1825" width="0.254" layer="1"/>
+<wire x1="34.0065" y1="14.1825" x2="29.96" y2="10.136" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="BOOST" pad="10"/>
