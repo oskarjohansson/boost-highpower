@@ -8328,7 +8328,21 @@ Part number
 </library>
 <library name="Passive" urn="urn:adsk.eagle:library:17612641">
 <packages>
-<package name="CAPAE660X700N" urn="urn:adsk.eagle:footprint:17897125/1" library_version="11">
+<package name="67PR10KLF" urn="urn:adsk.eagle:footprint:18578518/2" library_version="11">
+<pad name="P$1" x="2.5" y="-2.5" drill="0.6"/>
+<pad name="P$2" x="0" y="0" drill="0.6"/>
+<pad name="P$3" x="2.5" y="2.5" drill="0.6"/>
+<wire x1="-2.54" y1="5.08" x2="7.671" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="7.671" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="CAPAE660X700N" urn="urn:adsk.eagle:footprint:17897125/1" library_version="11" library_locally_modified="yes">
 <description>ECAP (Aluminum Electrolytic Capacitor), 6.60 X 7.00 mm body
 &lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 6.60 X 7.00 mm&lt;/p&gt;</description>
 <wire x1="-3.3" y1="1.0349" x2="-3.3" y2="2.0405" width="0.12" layer="21"/>
@@ -8348,48 +8362,76 @@ Part number
 <text x="0" y="3.935" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.935" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="67PR10KLF" urn="urn:adsk.eagle:footprint:18578518/2" library_version="11">
-<pad name="P$1" x="2.5" y="-2.5" drill="0.6"/>
-<pad name="P$2" x="0" y="0" drill="0.6"/>
-<pad name="P$3" x="2.5" y="2.5" drill="0.6"/>
-<wire x1="-2.54" y1="5.08" x2="7.671" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-5.08" x2="7.671" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="21"/>
+<package name="CAPAE830X850N" urn="urn:adsk.eagle:footprint:18738473/1" library_version="11" library_locally_modified="yes">
+<description>ECAP (Aluminum Electrolytic Capacitor), 8.30 X 8.50 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 8.30 X 8.50 mm&lt;/p&gt;</description>
+<wire x1="-4.25" y1="1.1686" x2="-4.25" y2="2.5823" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="2.5823" x2="-2.5823" y2="4.25" width="0.12" layer="21"/>
+<wire x1="-2.5823" y1="4.25" x2="4.25" y2="4.25" width="0.12" layer="21"/>
+<wire x1="4.25" y1="4.25" x2="4.25" y2="1.1686" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="-1.1686" x2="-4.25" y2="-2.5823" width="0.12" layer="21"/>
+<wire x1="-4.25" y1="-2.5823" x2="-2.5823" y2="-4.25" width="0.12" layer="21"/>
+<wire x1="-2.5823" y1="-4.25" x2="4.25" y2="-4.25" width="0.12" layer="21"/>
+<wire x1="4.25" y1="-4.25" x2="4.25" y2="-1.1686" width="0.12" layer="21"/>
+<wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="4.25" width="0.12" layer="51"/>
+<wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.12" layer="51"/>
+<wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.12" layer="51"/>
+<smd name="1" x="-3.1439" y="0" dx="3.2031" dy="1.8291" layer="1"/>
+<smd name="2" x="3.1439" y="0" dx="3.2031" dy="1.8291" layer="1"/>
+<text x="0" y="4.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CAPAE1030X1000N" urn="urn:adsk.eagle:footprint:18738366/1" library_version="11" library_locally_modified="yes">
+<description>ECAP (Aluminum Electrolytic Capacitor), 10.30 X 10.00 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 10.30 X 10.00 mm&lt;/p&gt;</description>
+<wire x1="-5.25" y1="1.4092" x2="-5.25" y2="3.2026" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="3.2026" x2="-3.2026" y2="5.25" width="0.12" layer="21"/>
+<wire x1="-3.2026" y1="5.25" x2="5.25" y2="5.25" width="0.12" layer="21"/>
+<wire x1="5.25" y1="5.25" x2="5.25" y2="1.4092" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="-1.4092" x2="-5.25" y2="-3.2026" width="0.12" layer="21"/>
+<wire x1="-5.25" y1="-3.2026" x2="-3.2026" y2="-5.25" width="0.12" layer="21"/>
+<wire x1="-3.2026" y1="-5.25" x2="5.25" y2="-5.25" width="0.12" layer="21"/>
+<wire x1="5.25" y1="-5.25" x2="5.25" y2="-1.4092" width="0.12" layer="21"/>
+<wire x1="5.25" y1="-5.25" x2="-5.25" y2="-5.25" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="5.25" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="5.25" x2="5.25" y2="5.25" width="0.12" layer="51"/>
+<wire x1="5.25" y1="5.25" x2="5.25" y2="-5.25" width="0.12" layer="51"/>
+<smd name="1" x="-4.2878" y="0" dx="3.9909" dy="2.3103" layer="1"/>
+<smd name="2" x="4.2878" y="0" dx="3.9909" dy="2.3103" layer="1"/>
+<text x="0" y="5.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="CAPAE660X700N" urn="urn:adsk.eagle:package:17897073/3" type="model" library_version="11">
+<package3d name="67PR10KLF" urn="urn:adsk.eagle:package:18578520/4" type="model" library_version="11">
+<packageinstances>
+<packageinstance name="67PR10KLF"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPAE660X700N" urn="urn:adsk.eagle:package:17897073/3" type="model" library_version="11" library_locally_modified="yes">
 <description>ECAP (Aluminum Electrolytic Capacitor), 6.60 X 7.00 mm body
 &lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 6.60 X 7.00 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAPAE660X700N"/>
 </packageinstances>
 </package3d>
-<package3d name="67PR10KLF" urn="urn:adsk.eagle:package:18578520/4" type="model" library_version="11">
+<package3d name="CAPAE830X850N" urn="urn:adsk.eagle:package:18738374/1" type="model" library_version="11" library_locally_modified="yes">
+<description>ECAP (Aluminum Electrolytic Capacitor), 8.30 X 8.50 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 8.30 X 8.50 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="67PR10KLF"/>
+<packageinstance name="CAPAE830X850N"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPAE1030X1000N" urn="urn:adsk.eagle:package:18738359/1" type="model" library_version="11" library_locally_modified="yes">
+<description>ECAP (Aluminum Electrolytic Capacitor), 10.30 X 10.00 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 10.30 X 10.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPAE1030X1000N"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="C_POL" urn="urn:adsk.eagle:symbol:17897168/1" library_version="9">
-<wire x1="-4.064" y1="1.651" x2="-1.016" y2="1.651" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.651" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="2.54" x2="-4.064" y2="1.651" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
-<text x="-1.397" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.1242" y="2.9464" size="1.27" layer="94" rot="R90">+</text>
-<text x="-1.397" y="-2.0574" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-4.191" y1="0" x2="-0.889" y2="0.889" layer="94"/>
-<pin name="-" x="-2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="+" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="POT" urn="urn:adsk.eagle:symbol:18578519/1" library_version="10">
 <wire x1="5.08" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
 <wire x1="4.572" y1="0" x2="3.81" y2="-1.016" width="0.254" layer="94"/>
@@ -8410,27 +8452,20 @@ Part number
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 <pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="C_POL" urn="urn:adsk.eagle:symbol:17897168/1" library_version="11" library_locally_modified="yes">
+<wire x1="-4.064" y1="1.651" x2="-1.016" y2="1.651" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.651" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-4.064" y2="1.651" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="2.54" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<text x="-1.397" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.1242" y="2.9464" size="1.27" layer="94" rot="R90">+</text>
+<text x="-1.397" y="-2.0574" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0" x2="-0.889" y2="0.889" layer="94"/>
+<pin name="-" x="-2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="WCAP-ASLL-WE" urn="urn:adsk.eagle:component:17897169/5" prefix="C" uservalue="yes" library_version="11">
-<gates>
-<gate name="G$1" symbol="C_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="WCAP-ASLL" package="CAPAE660X700N">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17897073/3"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="67PR10KLF" urn="urn:adsk.eagle:component:18578521/2" library_version="11">
 <gates>
 <gate name="G$1" symbol="POT" x="0" y="0"/>
@@ -8444,6 +8479,56 @@ Part number
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:18578520/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL-WE" urn="urn:adsk.eagle:component:17897169/5" locally_modified="yes" prefix="C" uservalue="yes" library_version="11" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="C_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="25V100µF" package="CAPAE660X700N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17897073/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="50V100µF" package="CAPAE830X850N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18738374/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_VZH" library_version="11" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="C_POL" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CAPAE1030X1000N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18738359/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -8951,10 +9036,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1µF"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="RSENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512W" package3d_urn="urn:adsk.eagle:package:23565/2" value="R002"/>
-<part name="C15" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="WCAP-ASLL" package3d_urn="urn:adsk.eagle:package:17897073/3" value="100uF"/>
-<part name="C24" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="WCAP-ASLL" package3d_urn="urn:adsk.eagle:package:17897073/3" value="100uF"/>
-<part name="C25" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="WCAP-ASLL" package3d_urn="urn:adsk.eagle:package:17897073/3" value="100uF"/>
-<part name="C29" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="WCAP-ASLL" package3d_urn="urn:adsk.eagle:package:17897073/3" value="100uF"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -8969,6 +9050,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="C1" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="50V100µF" package3d_urn="urn:adsk.eagle:package:18738374/1" value="100µF"/>
+<part name="C2" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="WCAP-ASLL-WE" device="50V100µF" package3d_urn="urn:adsk.eagle:package:18738374/1" value="100µF"/>
+<part name="U$6" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="CAP_VZH" device="" package3d_urn="urn:adsk.eagle:package:18738359/1" value="100µF"/>
+<part name="U$7" library="Passive" library_urn="urn:adsk.eagle:library:17612641" deviceset="CAP_VZH" device="" package3d_urn="urn:adsk.eagle:package:18738359/1" value="100µF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9122,22 +9207,6 @@ Ipeak:      28A </text>
 <attribute name="NAME" x="-34.29" y="31.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-34.29" y="27.178" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="134.62" y="22.86" smashed="yes" grouprefs="BOOST-MODULE">
-<attribute name="NAME" x="133.223" y="25.8826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="133.223" y="20.8026" size="1.778" layer="96"/>
-</instance>
-<instance part="C24" gate="G$1" x="147.32" y="22.86" smashed="yes" grouprefs="BOOST-MODULE">
-<attribute name="NAME" x="145.923" y="25.8826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="145.923" y="20.8026" size="1.778" layer="96"/>
-</instance>
-<instance part="C25" gate="G$1" x="-81.28" y="22.86" smashed="yes" grouprefs="BOOST-MODULE">
-<attribute name="NAME" x="-82.677" y="25.8826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-82.677" y="20.8026" size="1.778" layer="96"/>
-</instance>
-<instance part="C29" gate="G$1" x="-68.58" y="22.86" smashed="yes" grouprefs="BOOST-MODULE">
-<attribute name="NAME" x="-69.977" y="25.8826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-69.977" y="20.8026" size="1.778" layer="96"/>
-</instance>
 <instance part="FRAME1" gate="G$1" x="-167.64" y="-132.08" smashed="yes">
 <attribute name="DRAWING_NAME" x="176.53" y="-116.84" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="176.53" y="-121.92" size="2.286" layer="94"/>
@@ -9189,6 +9258,22 @@ Ipeak:      28A </text>
 <attribute name="NAME" x="116.332" y="-27.3558" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.332" y="-30.4038" size="1.778" layer="96"/>
 </instance>
+<instance part="C1" gate="G$1" x="-81.28" y="22.86" smashed="yes">
+<attribute name="NAME" x="-82.677" y="25.8826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-82.677" y="20.8026" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-68.58" y="22.86" smashed="yes">
+<attribute name="NAME" x="-69.977" y="25.8826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-69.977" y="20.8026" size="1.778" layer="96"/>
+</instance>
+<instance part="U$6" gate="G$1" x="147.32" y="22.86" smashed="yes">
+<attribute name="NAME" x="145.923" y="25.8826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.923" y="20.8026" size="1.778" layer="96"/>
+</instance>
+<instance part="U$7" gate="G$1" x="134.62" y="22.86" smashed="yes">
+<attribute name="NAME" x="133.223" y="25.8826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.223" y="20.8026" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9237,12 +9322,12 @@ Ipeak:      28A </text>
 <segment>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 <wire x1="144.78" y1="17.78" x2="144.78" y2="20.32" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
-<pinref part="C24" gate="G$1" pin="-"/>
+<pinref part="U$6" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="132.08" y1="20.32" x2="132.08" y2="17.78" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
-<pinref part="C15" gate="G$1" pin="-"/>
+<pinref part="U$7" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
@@ -9257,12 +9342,12 @@ Ipeak:      28A </text>
 <segment>
 <pinref part="SUPPLY40" gate="GND" pin="GND"/>
 <wire x1="-71.12" y1="17.78" x2="-71.12" y2="20.32" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
-<pinref part="C29" gate="G$1" pin="-"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="SUPPLY39" gate="GND" pin="GND"/>
 <wire x1="-83.82" y1="20.32" x2="-83.82" y2="17.78" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
-<pinref part="C25" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
@@ -9473,14 +9558,14 @@ Ipeak:      28A </text>
 <wire x1="154.94" y1="33.02" x2="154.94" y2="30.48" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <pinref part="U$10" gate="G$1" pin="D"/>
 <junction x="81.28" y="30.48" grouprefs="BOOST-MODULE"/>
-<pinref part="C15" gate="G$1" pin="+"/>
-<pinref part="C24" gate="G$1" pin="+"/>
 <label x="154.94" y="33.02" size="1.778" layer="95" grouprefs="BOOST-MODULE"/>
 <wire x1="160.02" y1="30.48" x2="154.94" y2="30.48" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <junction x="154.94" y="30.48" grouprefs="BOOST-MODULE"/>
 <pinref part="U$4" gate="G$1" pin="-"/>
 <wire x1="162.56" y1="29.21" x2="160.02" y2="29.21" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <wire x1="160.02" y1="29.21" x2="160.02" y2="30.48" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
+<pinref part="U$6" gate="G$1" pin="+"/>
+<pinref part="U$7" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -9514,8 +9599,6 @@ Ipeak:      28A </text>
 <wire x1="-60.96" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <junction x="-45.72" y="7.62" grouprefs="BOOST-MODULE"/>
 <pinref part="RSENSE" gate="G$1" pin="1"/>
-<pinref part="C25" gate="G$1" pin="+"/>
-<pinref part="C29" gate="G$1" pin="+"/>
 <label x="-106.68" y="33.02" size="1.778" layer="95" grouprefs="BOOST-MODULE"/>
 <wire x1="-106.68" y1="30.48" x2="-106.68" y2="33.02" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <wire x1="-116.84" y1="30.48" x2="-106.68" y2="30.48" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
@@ -9523,6 +9606,8 @@ Ipeak:      28A </text>
 <pinref part="U$5" gate="G$1" pin="+"/>
 <wire x1="-119.38" y1="29.21" x2="-116.84" y2="29.21" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
 <wire x1="-116.84" y1="29.21" x2="-116.84" y2="30.48" width="0.1524" layer="91" grouprefs="BOOST-MODULE"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="AGND" class="0">

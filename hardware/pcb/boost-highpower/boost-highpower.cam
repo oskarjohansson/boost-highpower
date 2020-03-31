@@ -191,7 +191,6 @@
                     },
                     "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
-                        51,
                         125,
                         201
                     ],
