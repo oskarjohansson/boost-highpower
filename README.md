@@ -1,7 +1,7 @@
 # Boost highpower
 > Created by Oskar Johansson
 
-**This module is a synchronous boost module when the cheap 2A boost no longer works.**   
+**This is a synchronous boost module when the cheap 2A boost don't have the capacity to deliver enough powaer.**   
 
 ## Goals 
 > Goals of this project
