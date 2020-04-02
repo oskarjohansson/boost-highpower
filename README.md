@@ -56,6 +56,22 @@ disp(Rshl_disp)
 ### Rendered images
 ![pcb.png](./img/pcb.png)
 
+### BOM 
+| Device              | Mfr nbr           | Quantity  | Value       |
+| :---                | :---              | ---:      | ---:        |
+| Boost controller    | TPS43061          | 1         | -           |
+| Terminal block      | 1935161           | 2         | -           |
+| Power inductor      | SRP1238A-R82M     | 1         | 0.82 µH     |
+| Potentiometer       | 67PR10KLF         | 1         | 10k         |
+| N-Mosfet            | CSD19502Q5BT      | 2         | 80V100A     | 
+| Current resistor    | R2512W            | 1         | R002        |
+| Electrolytic cap    | VZH-101M1KTR-1010 | 2         | 100 µF      |
+| Electrolytic cap    | 865080653016      | 2         | 100 µF      |
+| Resistor            | SMD 0603          | 5         | 2x 10R, 1k, 31.4k, 75k              |
+| Capacitor           | SMD 0603          | 6         | 100 pF, 110 pF, 1.5 nF, 0.1 µF, 1µF |
+| Capacitor           | SMD 0805          | 6         | 2x 0.1 µF, 4x 22µF                  |
+
+
 ## Usage of the boost module 
 ```
 - Connect inputside to 4.5 - 35 V. 
